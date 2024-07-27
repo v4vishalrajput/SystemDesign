@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;base.BasePizza&apos; to &apos;Pizza&apos;&#x0D;&#x0A;- Original project: &apos;DecoratorPattern&apos;&#x0D;&#x0A;- Original element: &apos;base.BasePizza&apos;&#x0D;&#x0A;- Renamed element: &apos;base.Pizza&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BasePizza&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;base{BasePizza.java[BasePizza" matchStrategy="1" name="Pizza" qualified="false" references="true" similarDeclarations="false" stamp="1722065599153" textual="false" version="1.0"/>
+</session>

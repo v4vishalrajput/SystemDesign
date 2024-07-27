@@ -1,0 +1,11 @@
+package observer;
+
+public class PopUpNotificationObserverImpl implements NotificationObserver {
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package main;
+
+import base.Margerita;
+import base.Pizza;
+import decorator.CheeseDecorator;
+
+public class MainMethod {
+
+	public static void main(String[] args) {
+		
+		Pizza cheeseMargerita= new CheeseDecorator(new Margerita());
+		
+		System.out.println(cheeseMargerita.cost());
+		
+	}
+
+}

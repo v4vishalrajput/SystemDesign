@@ -1,0 +1,37 @@
+package observable;
+
+import observer.NotificationObserver;
+
+public class IphoneStockObservableImpl implements StockObservable {
+
+	@Override
+	public void subscribe(NotificationObserver observer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void unSubscribe(NotificationObserver observer) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void notifySubscribers() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setStocks(int stock) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void getStocks() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

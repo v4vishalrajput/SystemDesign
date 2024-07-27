@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="design.strategy.ClassicDriveStrategy"/>
+    <fullyQualifiedTypeName name="design.strategy.SportsDriveStrategy"/>
+    <fullyQualifiedTypeName name="client.Car"/>
+    <fullyQualifiedTypeName name="context.Vehicle"/>
+    <fullyQualifiedTypeName name="client.Formula1"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="observable.StockObservable"/>
+    <fullyQualifiedTypeName name="observable.IphoneStockObservableImpl"/>
+    <fullyQualifiedTypeName name="observer.EmailNotificationObserverImpl"/>
+    <fullyQualifiedTypeName name="observer.NotificationObserver"/>
+    <fullyQualifiedTypeName name="observer.PopUpNotificationObserverImpl"/>
+</qualifiedTypeNameHistroy>
