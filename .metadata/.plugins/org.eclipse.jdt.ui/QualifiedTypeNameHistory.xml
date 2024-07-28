@@ -12,4 +12,10 @@
     <fullyQualifiedTypeName name="observer.EmailNotificationObserverImpl"/>
     <fullyQualifiedTypeName name="observer.NotificationObserver"/>
     <fullyQualifiedTypeName name="observer.PopUpNotificationObserverImpl"/>
+    <fullyQualifiedTypeName name="base.BasePizza"/>
+    <fullyQualifiedTypeName name="decorator.ToppingDecorator"/>
+    <fullyQualifiedTypeName name="decorator.CheeseDecorator"/>
+    <fullyQualifiedTypeName name="base.Pizza"/>
+    <fullyQualifiedTypeName name="base.Margerita"/>
+    <fullyQualifiedTypeName name="decorator.CapsicumDecorator"/>
 </qualifiedTypeNameHistroy>
