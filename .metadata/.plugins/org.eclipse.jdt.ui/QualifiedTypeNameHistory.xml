@@ -18,4 +18,16 @@
     <fullyQualifiedTypeName name="base.Pizza"/>
     <fullyQualifiedTypeName name="base.Margerita"/>
     <fullyQualifiedTypeName name="decorator.CapsicumDecorator"/>
+    <fullyQualifiedTypeName name="product.Square"/>
+    <fullyQualifiedTypeName name="product.Circle"/>
+    <fullyQualifiedTypeName name="factory.ShapeFactory"/>
+    <fullyQualifiedTypeName name="product.Shape"/>
+    <fullyQualifiedTypeName name="vehicle.factory.VehicleFactory"/>
+    <fullyQualifiedTypeName name="vehicle.Mercedes"/>
+    <fullyQualifiedTypeName name="vehicle.Alto"/>
+    <fullyQualifiedTypeName name="vehicle_factory.LuxuryVehicleFactory"/>
+    <fullyQualifiedTypeName name="vehicle_factory.OrdinaryVehicleFactory"/>
+    <fullyQualifiedTypeName name="vehicle_factory.VehicleFactory"/>
+    <fullyQualifiedTypeName name="vehicle_factorys_factory.VehicleFactorysFactory"/>
+    <fullyQualifiedTypeName name="vehicle.Vehicle"/>
 </qualifiedTypeNameHistroy>
