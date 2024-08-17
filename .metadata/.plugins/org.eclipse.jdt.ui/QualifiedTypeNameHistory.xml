@@ -5,8 +5,6 @@
     <fullyQualifiedTypeName name="client.Car"/>
     <fullyQualifiedTypeName name="context.Vehicle"/>
     <fullyQualifiedTypeName name="client.Formula1"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="observable.StockObservable"/>
     <fullyQualifiedTypeName name="observable.IphoneStockObservableImpl"/>
     <fullyQualifiedTypeName name="observer.EmailNotificationObserverImpl"/>
@@ -30,4 +28,8 @@
     <fullyQualifiedTypeName name="vehicle_factory.VehicleFactory"/>
     <fullyQualifiedTypeName name="vehicle_factorys_factory.VehicleFactorysFactory"/>
     <fullyQualifiedTypeName name="vehicle.Vehicle"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="pool_manager.PoolManager"/>
+    <fullyQualifiedTypeName name="db_connection.DBConnection"/>
 </qualifiedTypeNameHistroy>
