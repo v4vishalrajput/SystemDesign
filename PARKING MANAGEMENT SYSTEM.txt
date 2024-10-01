@@ -1,0 +1,127 @@
+//--------------PARKING MANAGEMENT SYSTEM---------------//
+1. Start with pojos
+2. Then implement other service classes
+
+//------------------VEHICLE---------------------------------//
+Vehicle {
+ String number;
+ Enum Vehicle_type;
+}
+
+//-------------------TICKET----------------------------------//
+Ticket {
+ ticketNo.
+ entrytime
+ parkinglot
+
+}
+
+//---------------------PARKING LOT-----------------------------//
+// we will be implementing twoWheeler, fourWheeler etc classes by provided suitable feeStrategy;
+abstract ParkingLot{
+
+int id;
+Vehicle vehicle;
+Boolean isOccupied;
+FeeStrategy feeStrategy;
+
+parkVehicle(Vehicle v) {
+  vehicle =v;
+  isOccupied = true;
+}
+releaseVehicle() {
+  vehicle = null;
+  isOccupied = false;
+}
+int fee() {
+return feeStrategy.getFee();
+};
+}
+//-------- this strategy interface will be implemented for different feeStrategy like twoWheelerFeeStrategy and fourWheelerFeeStrategy ----- //
+interface FeeStrategy{
+function fee();
+}
+
+//---------------------PARKINGLOT MANAGER-------------------------//
+// --------- need to implement twoWheelerParkingLotManager, fourWheelerParkingLotManager etc ----------//
+interface parkingLotManager{
+List availabeParkingLot;
+parkingLotManager(list parkingLots) availabeParkingLot=parkinglots;
+function AddParkingSpace();
+function removeParkingSpace();
+function synchronized getParkingSpace() {
+//------ here we can implement different strategies to get nearest parking lot----//
+return parkingLot;
+}
+function releasePrkingSpace(ParkingLot) availabeParkingLot.add(ParkingLot);
+
+function parkVehicle(ParkingLot, Vehicle){
+availabeParkingLot.remove(ParkingLot);
+parkingLot.addVehicle(vehicle);
+parkingLot.isOccupied = true;
+}
+
+}
+//-------------------ENTRY GATE----------------------------------//
+class EntryGate{
+
+parkingLotManager;
+getparkingLotManager(vehicleType) //--- here we can use factoryPattern to get different manager based on vehicle type we can also use chain of responsibility to get manager based on floor.
+
+getParkingSpace() parkingLotManager.getParkingSpace()
+parkVehicle(parkingLot, vehicle) parkingLotManager.parkVehicle()
+getTicket(parkingLot, vehicle) return ticket;
+}
+
+//-----------------PRICE STRATEGY-------------------------------//
+abstract priceStrategy{ //-------twoWheelerHourly/twoWheelerMinutely etc-----
+ 
+function price(ticket);
+
+class hourlyPriceStrategy{
+
+function price(ticket){
+(time.now-ticket.entrytime)*ticket.parkinglot.fee();
+}
+
+}
+
+//----------------------EXIT GATE--------------------------------//
+class ExitGate{
+
+parkingLotManager;
+priceStrategy //-----------------hourly/minutely
+function getparkingLotManager(ticket.vehicleType)
+calculate Price(Ticket){
+return priceStrategy.price(Ticket);
+} 
+function releaseSpace(){
+parkingLotManager.releaseSpace(ticket.parkinglot);
+}
+function payment();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

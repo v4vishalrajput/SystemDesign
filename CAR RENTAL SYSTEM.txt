@@ -1,0 +1,96 @@
+//------------CAR RENTAL--------------//
+
+Abstract Vehicle{
+ number;
+ model;
+ Enum VehicleType;   sedan/suv
+ Enum VehicleStatus   active/inactive
+}
+
+class User{
+id;
+name;
+age;
+drivingLicense;
+Location
+}
+
+class Reservation{
+
+reservationId;
+user;
+vehicle;
+BookingDate;
+bookingFrom;
+bookingTo;
+pickup location
+drop location
+Enum reservationStatus {SCHEDULED, INPROGRESS, COMPLETED, CANCELLED}
+
+createReservation(user, vehicle){
+}
+}
+
+//--------we can implement separate inventoryManagers for different vehicle types------------------------//
+abstract inventoryManager{
+List<Vehicle> vehicles;
+
+getters/setters
+}
+
+class Store{
+InventoryManager;
+List<Reservations> reservationList
+function setInventoryManager(vehicleType)
+fuction getVehicle(vehicleType){
+setInventoryManager(vehicleType);
+return InventoryManager.getVehicles;
+}
+
+createReservation(user, vehicle, ...){
+Reservation rsv = new Reservation();
+rsv.createReservation(user, vehicle);
+return rsv;
+}
+
+fuction updateReservation
+
+function dropVehicle(Vehicle){}
+
+}
+
+class Bill{
+priceStrategy;
+Reservation
+is billPaid;
+function amount(){
+//-----------based on reservationTime and paymentStrategy------------//
+};
+}
+
+class payment{
+Bill;
+
+}
+
+class RentalManagement{
+List<Users> users;
+List<Store> stores
+
+function getStores(Location);
+
+store.getVehicles(vehicleType);
+store.createReservation(user, vehicle);
+new bill(reservation)
+new payment(bill)
+
+}
+
+
+
+
+
+
+
+
+

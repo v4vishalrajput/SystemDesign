@@ -4,4 +4,6 @@
     <typeInfo handle="=ObserverPattern/src&lt;observer{NotificationObserver.java[NotificationObserver" modifiers="513" timestamp="1721889711378"/>
     <typeInfo handle="=FactoryDesign/src&lt;product{Shape.java[Shape" modifiers="513" timestamp="1722150002315"/>
     <typeInfo handle="=AbstractFactoryDesign/src&lt;vehicle{Vehicle.java[Vehicle" modifiers="1025" timestamp="1722155270988"/>
+    <typeInfo handle="=BridgeDesignPattern/src&lt;living_things{LivingThing.java[LivingThing" modifiers="1025" timestamp="1725125938603"/>
+    <typeInfo handle="=StateDesignPattern/src&lt;state{State.java[State" modifiers="513" timestamp="1727027035274"/>
 </typeInfoHistroy>
